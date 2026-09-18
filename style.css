@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Page */
+
+/* unvisited link */
+a:link {
+  color: pink;
+}
+
+/* visited link */
+a:visited {
+  color: deeppink;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: paleturquoise;S
+}
+
+body {
+	
+background-color: #ffe6f0;
+color: #d63384;
+font-family: Arial, sans-serif;
+margin: 0; 
+cursor: url("https://pinimg.com"), auto;
+}
+
+/* Header */
+#header {
+background-image: url("cakeee.jpg");
+background-color: #ffc1d9;
+color: hotpink;
+text-align: center;
+padding: 25px;
+border-bottom: 4px solid hotpink;
+}
+
+/* Navigation */
+#nav {
+	
+background-color: #fff0f6;
+color: hotpink;
+text-align: center;
+padding: 15px;
+margin: 0;
+border-bottom: 2px solid #ff69b4;
+}
+
+/* Navigation links */
+#nav a {
+color: hotpink;
+text-decoration: none;
+font-weight: bold;
+margin: 0 20px;
+}
+
+/* Main Content */
+#content {
+background-color: #fff7fa;
+color: #d63384;
+width: 80%;
+margin: 25px auto;
+padding: 25px;
+border: 2px solid #ffb6c1;
+border-radius: 15px;
+line-height: 1.6;
+}
+
+/* Individual paragraphs */
+.paragraph {
+background-color: #ffeef5;
+padding: 15px;
+margin: 15px 0;
+border-left: 5px solid hotpink;
+border-radius: 8px;
+}
+
+/* Fun Facts */
+#fun-facts {
+background-color: #ffd6e7;
+color: #d63384;
+padding: 15px;
+margin: 20px 0;
+border: 2px solid #ff69b4;
+border-radius: 10px;
+}
+
+#fun-facts h2 {
+color: hotpink;
+}
+
+/* Images */
+img {
+margin: 10px;
+border: 3px solid #ffb6c1;
+border-radius: 10px;
+}
+
+/* Footer */
+#footer {
+background-color: #ffc1d9;
+color: hotpink;
+text-align: center;
+padding: 20px;
+margin-top: 30px;
+border-top: 4px solid hotpink;
+font-weight: bold;
+
